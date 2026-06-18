@@ -1,0 +1,25 @@
+# NEVER upload config files with secrets!
+config.h
+.env
+
+# PlatformIO / Arduino build files
+.pio/
+build/
+*.o
+*.elf
+*.bin
+*.ino.previous
+
+# Mac files
+.DS_Store
+*.swp
+*.swo
+._*
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.log
